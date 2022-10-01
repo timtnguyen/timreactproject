@@ -9,6 +9,8 @@ import {
     showStats
 } from '../controllers/customersController.js'
 
+
+
 router.route('/').post(createCustomer).get(getAllCustomers)
 
 // remember about :id 
